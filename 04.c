@@ -10,7 +10,7 @@ int main(void) {
   a--;
   --b;
 
-  // ++x / ++x 의 차이점은 계산 후 수행인지, 수행 후 계산인지 
+  // ++x / x++ 의 차이점은 계산 후 수행인지, 수행 후 계산인지 
   printf("%d\n", a+b);
   printf("%d\n", a-b);
   printf("%d\n", a*b);
